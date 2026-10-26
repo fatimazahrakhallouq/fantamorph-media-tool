@@ -1,0 +1,16 @@
+# Exclude build artifacts
+# Normalize line endings
+# Project-specific overrides
+*.map linguist-generated
+
+*.jpg binary
+
+go.sum linguist-generated
+*.html linguist-vendored
+*.bat text eol=crlf
+*.svg text
+*.ts linguist-detectable
+docs/*.html linguist-vendored
+
+src/*.ts linguist-detectable
+# eof 0956f6be
